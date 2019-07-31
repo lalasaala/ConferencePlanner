@@ -1,0 +1,5 @@
+D:\Personal\ConferencePlanner\ConferencePlanner\bin\Debug\KLATencorLibrary.dll
+D:\Personal\ConferencePlanner\ConferencePlanner\bin\Debug\KLATencorLibrary.pdb
+D:\Personal\ConferencePlanner\ConferencePlanner\KLATencorLibrary\obj\Debug\KLATencorLibrary.csprojResolveAssemblyReference.cache
+D:\Personal\ConferencePlanner\ConferencePlanner\KLATencorLibrary\obj\Debug\KLATencorLibrary.dll
+D:\Personal\ConferencePlanner\ConferencePlanner\KLATencorLibrary\obj\Debug\KLATencorLibrary.pdb

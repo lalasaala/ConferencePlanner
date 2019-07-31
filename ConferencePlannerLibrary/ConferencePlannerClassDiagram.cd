@@ -1,0 +1,152 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="ConferencePlannerLibrary.Parts.Factory" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="7.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAgAAAAAAAAAAAAAAAACAAAAAAAAAACBAAAAAEAAAA=</HashCode>
+      <FileName>Parts\Factory.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.19" />
+  </Class>
+  <Class Name="ConferencePlannerLibrary.Parts.InputReader" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="9.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAACAAAAAAAAAAAAAAAAAAAAAAAAAAAg=</HashCode>
+      <FileName>Parts\InputReader.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="ConferencePlannerLibrary.Parts.ConferencePlannerBreak" Collapsed="true">
+    <Position X="0.75" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Parts\ConferencePlannerBreak.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ConferencePlannerLibrary.Parts.ConferencePlannerEodEvent" Collapsed="true">
+    <Position X="5.25" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Parts\ConferencePlannerEodEvent.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ConferencePlannerLibrary.Parts.ConferencePlannerEvent" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="11.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAACAAAAAAAAAQAgAAAAAAAAIACAAAAAAA=</HashCode>
+      <FileName>Parts\ConferencePlannerEvent.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="ConferencePlannerLibrary.Parts.ConferencePlannerHomeExpert" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="7.75" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAACAgAAAAAAAAAACAA=</HashCode>
+      <FileName>Parts\ConferencePlannerHomeExpert.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="ConferencePlannerLibrary.Parts.ConferencePlannerItem" Collapsed="true">
+    <Position X="3" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAACAgAAAAAAAAAAAAA=</HashCode>
+      <FileName>Parts\ConferencePlannerItem.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="ConferencePlannerLibrary.Parts.ConferencePlannerNoonLunch" Collapsed="true">
+    <Position X="3" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Parts\ConferencePlannerNoonLunch.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ConferencePlannerLibrary.Parts.ConferencePlannerVingette" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="9.5" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAACAgAAAAAAAAAACAA=</HashCode>
+      <FileName>Parts\ConferencePlannerVingette.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="ConferencePlannerLibrary.Parts.ScheduleCreator" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="11.25" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AACAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAQAAA=</HashCode>
+      <FileName>Parts\ScheduleCreator.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="ConferencePlannerLibrary.Parts.SchedulerAlgorithm" Collapsed="true">
+    <Position X="0.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AACAAABAAAggAAAAAYAAAAAAIAAAAAAAAAACAAgAAAA=</HashCode>
+      <FileName>Parts\SchedulerAlgorithm.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Interface Name="ConferencePlannerLibrary.Contracts.IFactory" Collapsed="true">
+    <Position X="7.75" Y="2.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAgAAAAAAAAAAAAAAAACAAAAAAAAAACBAAAAAEAAAA=</HashCode>
+      <FileName>Contracts\IFactory.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="ConferencePlannerLibrary.Contracts.IInputReader" Collapsed="true">
+    <Position X="9.5" Y="2.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAACAAAAAAAAAAAAAAAAAAAAAAAAAAAg=</HashCode>
+      <FileName>Contracts\IInputReader.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="ConferencePlannerLibrary.Contracts.IConferencePlannerEvent" Collapsed="true">
+    <Position X="11.25" Y="2.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAACAAAAAAAAAAAAAAAAAAAAIAAAAAAAAA=</HashCode>
+      <FileName>Contracts\IConferencePlannerEvent.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="ConferencePlannerLibrary.Contracts.IConferencePlannerHomeExpert" Collapsed="true">
+    <Position X="2.75" Y="6.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Contracts\IConferencePlannerHomeExpert.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="ConferencePlannerLibrary.Contracts.IConferencePlannerItem" Collapsed="true">
+    <Position X="1.75" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAACAgAAAAAAAAAAAAA=</HashCode>
+      <FileName>Contracts\IConferencePlannerItem.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="ConferencePlannerLibrary.Contracts.IConferencePlannerTalk" Collapsed="true">
+    <Position X="1.75" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACAA=</HashCode>
+      <FileName>Contracts\IConferencePlannerTalk.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="ConferencePlannerLibrary.Contracts.IConferencePlannerVingette" Collapsed="true">
+    <Position X="0.5" Y="6.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Contracts\IConferencePlannerVingette.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="ConferencePlannerLibrary.Contracts.IScheduleCreator" Collapsed="true">
+    <Position X="7.75" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Contracts\IScheduleCreator.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="ConferencePlannerLibrary.Contracts.ISchedulerAlgorithm" Collapsed="true">
+    <Position X="9.5" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Contracts\ISchedulerAlgorithm.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
